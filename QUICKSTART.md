@@ -2,7 +2,26 @@
 
 Get up and running with the Phishing Email Detection system in just a few minutes!
 
-## 🚀 5-Minute Setup
+## 🌐 Option 1: Google Colab (No Installation Required!)
+
+**The easiest way to get started - runs entirely in your browser!**
+
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/nitish-niraj/email-spam-checker/blob/main/phishing_detection_colab.ipynb)
+
+### Steps (3 minutes):
+
+1. **Click the badge above** to open the notebook in Google Colab
+2. **Upload your Kaggle credentials** when prompted (get from https://www.kaggle.com/settings)
+3. **Run all cells** (Runtime → Run all)
+4. **View results** and download trained models
+
+**Perfect for**: Quick demos, learning, or if you don't want to install anything locally.
+
+---
+
+## 💻 Option 2: Local Installation (Traditional Setup)
+
+### 🚀 5-Minute Setup
 
 ### Step 1: Install Dependencies (1 minute)
 
