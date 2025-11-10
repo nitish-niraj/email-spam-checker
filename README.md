@@ -2,6 +2,21 @@
 
 A complete machine learning system to classify emails as phishing or legitimate using K-Nearest Neighbors (KNN) and Support Vector Machine (SVM) algorithms.
 
+## 🚀 Run on Google Colab
+
+**You can now run this project directly in your browser without any installation!**
+
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/nitish-niraj/email-spam-checker/blob/main/phishing_detection_colab.ipynb)
+
+Click the badge above to open the interactive Jupyter notebook in Google Colab. The notebook includes:
+- ✅ All dependencies pre-configured
+- ✅ Step-by-step instructions
+- ✅ Interactive visualizations
+- ✅ Complete ML pipeline (data loading → model training → evaluation)
+- ✅ Downloadable trained models
+
+**Perfect for:** Quick testing, learning, demonstrations, or if you don't want to set up a local environment.
+
 ## 📋 Project Overview
 
 This project implements a comprehensive phishing email detection system that:
@@ -50,7 +65,14 @@ pip install -r requirements.txt
 
 ## 🎯 Usage
 
-### Running the Complete Pipeline
+### Option 1: Google Colab (Recommended for Quick Start)
+
+1. Click the "Open in Colab" badge above
+2. Follow the notebook instructions to upload your Kaggle API credentials
+3. Run all cells to train and evaluate the models
+4. Download the trained models and visualizations
+
+### Option 2: Running Locally
 
 Simply run the main script:
 
