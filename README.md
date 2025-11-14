@@ -6,14 +6,21 @@ A complete machine learning system to classify emails as phishing or legitimate 
 
 **You can now run this project directly in your browser without any installation!**
 
+### Complete All-in-One Notebook (Recommended)
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/nitish-niraj/email-spam-checker/blob/main/Complete_Email_Spam_Detection.ipynb)
+
+**New!** This comprehensive notebook includes:
+- ✅ All dependencies pre-configured
+- ✅ Complete ML pipeline from start to finish
+- ✅ Works with uploaded emails.csv file (no Kaggle API needed!)
+- ✅ Interactive visualizations and detailed analysis
+- ✅ **Automatically saves all trained models at the end**
+- ✅ Includes usage examples for predictions
+
+### Alternative: Dataset Auto-Download Version
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/nitish-niraj/email-spam-checker/blob/main/phishing_detection_colab.ipynb)
 
-Click the badge above to open the interactive Jupyter notebook in Google Colab. The notebook includes:
-- ✅ All dependencies pre-configured
-- ✅ Step-by-step instructions
-- ✅ Interactive visualizations
-- ✅ Complete ML pipeline (data loading → model training → evaluation)
-- ✅ Downloadable trained models
+This version automatically downloads the dataset from Kaggle (requires Kaggle API credentials).
 
 **Perfect for:** Quick testing, learning, demonstrations, or if you don't want to set up a local environment.
 
@@ -67,9 +74,17 @@ pip install -r requirements.txt
 
 ### Option 1: Google Colab (Recommended for Quick Start)
 
-1. Click the "Open in Colab" badge above
-2. Follow the notebook instructions to upload your Kaggle API credentials
+#### Using the Complete Notebook (Easiest)
+1. Click the "Complete All-in-One Notebook" badge above
+2. Upload the `emails.csv` file to your Colab session (or use the file upload widget in the notebook)
 3. Run all cells to train and evaluate the models
+4. The notebook will automatically save all trained models at the end
+5. Download the trained models and visualizations
+
+#### Using the Auto-Download Version
+1. Click the "Alternative: Dataset Auto-Download Version" badge
+2. Follow the notebook instructions to upload your Kaggle API credentials
+3. Run all cells - the dataset will be downloaded automatically
 4. Download the trained models and visualizations
 
 ### Option 2: Running Locally
@@ -130,6 +145,7 @@ After running the script, the following files will be generated:
 - `knn_phishing_detector.pkl` - Trained KNN model
 - `svm_phishing_detector.pkl` - Trained SVM model
 - `feature_scaler.pkl` - StandardScaler for feature preprocessing
+- `label_encoder.pkl` - LabelEncoder for target variable encoding (saved by the Complete notebook)
 
 ### Visualizations
 - `knn_k_optimization.png` - KNN performance across different K values
